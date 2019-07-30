@@ -20,7 +20,7 @@ class _Menu extends State<Menu> {
         backgroundColor: Color(0xFFFFFFFF),
         title: Center(
           child: Image.asset("assets/imagens/logo_mini_met_life.png",
-              height: 30.0),
+              height: 35.0),
         ),
         iconTheme: IconThemeData(
           color: Colors.white,
