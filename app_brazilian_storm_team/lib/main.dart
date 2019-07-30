@@ -1,5 +1,6 @@
 import 'package:app_brazilian_storm_team/views/login_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,11 +20,17 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primaryColor: Color(0xFF2A2E40),
-        accentColor: Color(0xFF353A50),
+        //primaryColor: Color(0xFF2A2E40),
+        //accentColor: Color(0xFF353A50),
         primarySwatch: Colors.blue,
       ),
       home: LoginView(),
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+      ],
+      supportedLocales: [
+        const  Locale('pt', 'BR'),
+      ],
     );
   }
 }

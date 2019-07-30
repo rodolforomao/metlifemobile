@@ -5,6 +5,8 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:convert';
 
+import 'package:flutter/services.dart';
+
 
 class ListaUsuariosView extends StatefulWidget {
   @override
@@ -99,13 +101,15 @@ class _ListaUsuariosView  extends State<ListaUsuariosView> with TickerProviderSt
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
     return new Scaffold(
       key: _ScaffoldKey,
       backgroundColor: Color(0xFFf4f6f9),
+
       appBar: new AppBar(
         backgroundColor: Colors.white,
         iconTheme: IconThemeData(color: Colors.black),
-        title: const Center(child:Text('Usuários', style: TextStyle(color: Colors.black) ) ),
+        title: const Center(child:Text('Fechamentos', style: TextStyle(color: Colors.black) ) ),
       ),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
