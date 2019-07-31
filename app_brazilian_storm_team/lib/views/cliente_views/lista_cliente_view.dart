@@ -1,5 +1,4 @@
-import 'package:app_brazilian_storm_team/views/ClienteViews/novo_cliente_view.dart';
-import 'package:app_brazilian_storm_team/views/UsuarioViews/usuario_view.dart';
+import 'package:app_brazilian_storm_team/views/cliente_views/novo_cliente_view.dart';
 import 'package:app_brazilian_storm_team/views/login_view.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';

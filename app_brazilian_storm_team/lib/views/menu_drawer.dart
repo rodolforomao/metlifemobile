@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:app_brazilian_storm_team/views/UsuarioViews/lista_usuarios_view.dart';
+import 'package:app_brazilian_storm_team/views/usuario_views/lista_usuarios_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 

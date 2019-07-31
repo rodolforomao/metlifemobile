@@ -1,5 +1,4 @@
 
-import 'package:app_brazilian_storm_team/views/UsuarioViews/lista_usuarios_view.dart';
 import 'package:app_brazilian_storm_team/views/menu.dart';
 import 'package:app_brazilian_storm_team/views/menu_drawer.dart';
 import 'package:app_brazilian_storm_team/views/recuperar_senha_view.dart';

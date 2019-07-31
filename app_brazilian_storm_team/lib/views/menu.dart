@@ -1,7 +1,6 @@
-import 'package:app_brazilian_storm_team/views/ClienteViews/lista_cliente_view.dart';
-import 'package:app_brazilian_storm_team/views/ClienteViews/novo_cliente_view.dart';
-import 'package:app_brazilian_storm_team/views/UsuarioViews/lista_usuarios_view.dart';
+import 'package:app_brazilian_storm_team/views/cliente_views/lista_cliente_view.dart';
 import 'package:app_brazilian_storm_team/views/login_view.dart';
+import 'package:app_brazilian_storm_team/views/usuario_views/lista_usuarios_view.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
